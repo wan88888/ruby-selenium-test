@@ -24,7 +24,7 @@ jobs:
 
       - name: Run tests
         run: |
-          ruby test.rb
+          ruby google_test.rb
       - uses: actions/upload-artifact@v3
         with:
           name: Test Report
